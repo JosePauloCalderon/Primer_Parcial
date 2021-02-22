@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   
+    <title>Inicio</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+       
+        <header>
+            <div id="toggle" onclick="toggle()"></div>
+            <h1  class="logo" >
+                <span>J</span>
+                <span >P</span></h1>
+          
+          
+           
+        </header>
+        <div class="content">
+            <h2><br>Yo soy <span >  Jose Paulo</span></h2>
+            <p>Un joven de 20 años, nacido en Cartago,Costa Rica. Que actualmente esta estudiando Ingenieria Informatica en la Universidad Florencio del Castillo.</p>
+            <a class="cssAnimation" href="acerca_de.html">Conóceme</a>
+            
+        </div>
+        <img class="foto" src="content/images/JP.jpg" width="30%">
+        <footer>
+            <div><p>josepau192000@gmail.com, Contacto: (506) 60469664
+                <br>
+                <a >Sigueme en: </a>
+                &nbsp;
+                            <a href="https://www.facebook.com/josepaulo.calderonjimenez"><i class="fa fa-facebook"></i></a>
+                            &nbsp;
+                            <a href="https://www.instagram.com/josepau19/"><i class="fa fa-instagram"></i></a>
+                           
+           
+               
+       
+                
+            </div>
+           
+        
+        </footer>
+    </section>
+    <div id="navigation">
+        <div class="ima"> <img class="ima_peque" src="content/images/peque.jpg" alt=""></div>
+       
+        <ul>
+            <li ><a class="inicio" href="#">Inicio</a></li>
+            <li><a class="Acerca" href="acerca_de.html">Acerca de</a></li>
+        
+            <li><a class="Contactame" href="Contactame.html">Contactame</a></li>
+        </ul>
+    </div>
+   
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+ 
+    </script>
+       <script src="js/jquery-3.3.1.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+
+        
+    
+        
+    </body>
+        
+    
+</html>
